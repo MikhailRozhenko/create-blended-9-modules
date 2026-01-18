@@ -49,7 +49,9 @@ section {
 
 /* Базові стилі */
 body {
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 /* Основна світла тема */
@@ -72,6 +74,11 @@ body.theme-light .task-list-item {
 body.theme-dark {
   background-color: #1e1e1e;
   color: #ffffff;
+}
+
+body.dark {
+  background-color: white;
+  color: #1e1e1e;
 }
 
 body.theme-dark .header {
